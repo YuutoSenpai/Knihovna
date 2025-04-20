@@ -8,10 +8,9 @@ namespace Knihovna
 {
     public class Kniha
     {
-        public int Id { get; set; } // Primární klíč
-        public string Title { get; set; }
-        public string Author { get; set; }
-        public string Genre { get; set; }
-        public int Year { get; set; }
+        public string Nazev { get; set; }
+        public string Autor { get; set; }
+        public string Zanr { get; set; }
+        public int Rok { get; set; }
     }
 }
